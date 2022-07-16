@@ -2,4 +2,6 @@
 
 ## 環境構築
 ### Protocol Buffersのコンパイラをインストール
-`brew install protobuf`
+`brew install protobuf`  
+#### インストール確認
+`protoc --version`
