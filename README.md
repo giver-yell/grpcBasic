@@ -12,3 +12,7 @@
 ##### 参考URL
 - gRPC Quick Start  
 https://www.udemy.com/course/go-grpc-x/learn/lecture/30988814#overview
+
+## 参考URL
+- Udemy Go言語で学ぶ実践gRPC入門  
+https://www.udemy.com/course/go-grpc-x/
