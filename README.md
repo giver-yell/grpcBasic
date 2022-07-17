@@ -5,3 +5,10 @@
 `brew install protobuf`  
 #### インストール確認
 `protoc --version`
+### Go pluginをインストール
+`go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28`  
+`go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2`    
+
+##### 参考URL
+- gRPC Quick Start  
+https://www.udemy.com/course/go-grpc-x/learn/lecture/30988814#overview
