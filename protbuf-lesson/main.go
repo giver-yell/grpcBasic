@@ -50,4 +50,13 @@ func main() {
 	}
 
 	fmt.Println(readEmployee)
+
+	// JSONマッピング
+	// m := jsonpb.Marshaler{}
+	// out, err := m.MarshalToString(employee)
+	// if err != nil {
+	// 	log.Fatalln("Can't marshal to json", err)
+	// }
+
+	// fmt.Println(out)
 }
