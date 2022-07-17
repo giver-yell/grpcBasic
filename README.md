@@ -1,13 +1,16 @@
 # grpcBasic
 
+## コンパイル
+`$ protoc -I. --go_out=. proto/*.proto`
+
 ## 環境構築
 ### Protocol Buffersのコンパイラをインストール
-`brew install protobuf`  
+`$ brew install protobuf`  
 #### インストール確認
-`protoc --version`
+`$ protoc --version`
 ### Go pluginをインストール
-`go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28`  
-`go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2`    
+`$ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28`  
+`$ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2`  
 
 ##### 参考URL
 - gRPC Quick Start  
